@@ -5,5 +5,3 @@ console.log(null == 23);
 console.log(null < 12);
 
 
-
-
