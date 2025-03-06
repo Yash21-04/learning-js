@@ -36,7 +36,7 @@ console.log(arr1);
 
 const array4 = [1,2,3,4,7,5,6]
 console.log("B ",array4);
-const arr2 = array4.splice(1,4)
+const arr2 = array4.splice(1,4) 
 console.log(arr2);
 
 
