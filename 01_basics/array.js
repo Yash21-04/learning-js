@@ -27,17 +27,40 @@ Array2.pop()
 console.log(Array2);
 */
 
-const array3 = [1,2,3,4,7,5,6]
-console.log("A ", array3);
-const arr1 = array3.slice(1,4)
-console.log(arr1);
+// const array3 = [1,2,3,4,7,5,6]
+// console.log("A ", array3);
+// const arr1 = array3.slice(1,4)
+// console.log(arr1);
 
 
 
-const array4 = [1,2,3,4,7,5,6]
-console.log("B ",array4);
-const arr2 = array4.splice(1,4) 
-console.log(arr2);
+// const array4 = [1,2,3,4,7,5,6]
+// console.log("B ",array4);
+// const arr2 = array4.splice(1,4) 
+// console.log(arr2);
+
+// const name1 = ["Yash", "Sarthak","Vansh","Ansh"]
+// const heros2 = ["salman","Shahrukh","Hrithik"]
+// // name.push(heros)
+// const newarray = name1.concat(heros2)
+// console.log(newarray);
+
+// const newarr = [...name1,...heros2]
+// console.log(newarr);
+
+// const arr = [1,2,3,[4,5,6,[12,42,35]]]
+// const anotherarr = arr.flat(Infinity)
+// console.log(anotherarr);
+
+// console.log(Array.isArray("Yash"));
+// console.log(Array.from("Yash"));
+
+const run1 = 100;
+const run2 = 264
+const run3 = 82
+console.log(Array.of(run1,run2,run3));
+
+
 
 
 
