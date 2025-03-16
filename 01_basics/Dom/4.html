@@ -43,6 +43,13 @@ firstlang.outerHTML = '<li>Typescript</li>'
 const lastlang = document.querySelector("li:last-child")
 lastlang.remove()
 
+function addVersion(langName){
+        const version = document.createElement('span')
+        version.appendChild(document.createTextNode(` (${langName})`))
+        const lastLanguage = document.querySelector('.language li:last-child')
+        lastLanguage.appendChild(version)
+    }
+addVersion('13.234.32')
 
 </script>
 
